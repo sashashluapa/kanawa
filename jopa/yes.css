@@ -1,6 +1,6 @@
 .word {
 	display: grid; 
-	grid-template-columns: 5fr 1fr; 
+	grid-template-columns: 20% 80%; 
 }
 .box1 {
 	border: 1px black solid;
@@ -9,7 +9,10 @@
 	border-top-right-radius: 50px;
 	border-top-left-radius: 50px;
 	background-color: lime;
-}
+	height:300px;
+	position: fixed;
+
+ }
 body {
 	display: block;
 	margin-left: 10%;
